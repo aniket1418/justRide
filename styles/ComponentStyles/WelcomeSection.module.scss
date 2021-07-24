@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Stalemate&display=swap");
+$brand-color: #5b5ca6;
+$brand-title-color: #5b5ca6;
+$brand-black-color: #000000;
+$brand-white-color: #ffffff;
+$page-title-fonts: "Poppins", sans-serif;
+$page-cursive-fonts: "Stalemate", cursive;
+.mainDescriptiveHeading {
+  font-family: $page-title-fonts;
+  margin-top: 150px;
+  h3 {
+    font-size: 65px;
+    color: $brand-black-color;
+    font-weight: 700;
+  }
+}
+
+.brandName {
+  color: $brand-title-color;
+}
+
+.brandSubTitle {
+  width: 95%;
+  p {
+    font-size: 18px;
+  }
+  .brandSubTitleTag {
+    color: $brand-title-color;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+}
+.brandButton {
+  border: none;
+  background-color: $brand-color;
+  padding: 10px 20px 10px 20px;
+  color: $brand-white-color;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+.descriptionTag {
+  margin-top: 100px;
+}
+
+.boldertitleTag {
+  font-size: 20px;
+  font-weight: 600;
+}
+.pageTitleHeading {
+  font-size: 65px;
+  font-weight: 700;
+}
+.smallTag {
+  font-family: $page-cursive-fonts;
+  font-size: 40px;
+}
+.subtitleTag {
+  width: 90%;
+  font-size: 18px;
+  font-weight: 300;
+}

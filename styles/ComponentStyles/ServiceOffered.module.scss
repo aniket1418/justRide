@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Stalemate&display=swap");
+$brand-color: #5b5ca6;
+$page-title-fonts: "Poppins", sans-serif;
+$page-cursive-fonts: "Stalemate", cursive;
+.mainTag {
+  font-family: $page-title-fonts;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.mainCard {
+  border: none;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  min-height: 270px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.mainDescription {
+  font-family: $page-title-fonts;
+  font-weight: 400;
+  text-align: justify;
+  font-size: 17px;
+}
+
+.serviceCardTitle {
+  font-family: $page-title-fonts;
+  color: $brand-color;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.serviceCardDescription {
+  font-family: $page-title-fonts;
+  font-size: 13px;
+  text-align: justify;
+}
+
+.colorTag {
+  color: $brand-color;
+}
+
+.serviceTag {
+  font-family: $page-cursive-fonts;
+  transform: rotate(45deg);
+  font-size: 30px;
+}
+
+.whyEv {
+  font-family: $page-title-fonts;
+  font-size: 18px;
+  width: 80%;
+}
+
+.titleHeading {
+  font-family: $page-title-fonts;
+  color: #5b5ca6;
+  font-weight: 600;
+  margin-top: 100px;
+}
+.titleTagPara {
+  font-family: $page-title-fonts;
+  font-size: 18px;
+}

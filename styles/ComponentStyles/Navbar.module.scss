@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Stalemate&display=swap");
+$page-title-fonts: "Poppins", sans-serif;
+$brand-black-color: #000000;
+$brand-white-color: #fff;
+$brand-title-color: #5b5ca6;
+$blob-color: #bfc0ff;
+.navbarSection {
+  background-color: $brand-white-color;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  .navbar {
+    height: 100px;
+  }
+}
+
+.navlink {
+  color: #5b5ca6;
+  font-size: 17px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: $page-title-fonts;
+  color: $brand-black-color;
+  font-weight: 500;
+}

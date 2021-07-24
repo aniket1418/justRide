@@ -1,0 +1,39 @@
+$page-title-fonts: "Poppins", sans-serif;
+$page-cursive-fonts: "Stalemate", cursive;
+.FooterBG {
+  background-color: #5b5ca6;
+  font-family: $page-title-fonts;
+  color: #ffffff;
+
+  .mainDescription {
+    margin-top: 60px;
+  }
+
+  .smallTag {
+    font-family: $page-cursive-fonts;
+    font-size: 30px;
+    transform: rotateX(40);
+  }
+  button {
+    margin-top: 50px;
+    border: none;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #5b5ca6;
+    margin-bottom: 60px;
+  }
+  .footerTitle {
+    font-size: 24px;
+  }
+
+  li {
+    list-style: none;
+    font-size: 16px;
+  }
+  .mainFooterDesc {
+    margin-top: 105px;
+  }
+}
