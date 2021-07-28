@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import React from 'react';
 import AboutPageSection from '../components/AboutpageSection';
+import AboutSection from '../components/AboutSection';
 import Footer from '../components/Footer';
 import NavbarComponent from '../components/NavBar';
 // import TeamSectionCard from '../components/TeamSectionCard';
@@ -15,6 +16,7 @@ const AboutUs = () => {
         </Head>
         <NavbarComponent/>
         <WelcomeInner title="About us " subtitle = "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the " img="/images/aboutus.png"/>
+        <AboutSection/>
         <AboutPageSection/>
         <Footer/>
         </>

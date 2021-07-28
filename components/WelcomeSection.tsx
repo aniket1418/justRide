@@ -1,5 +1,6 @@
 import React from 'react'
 import style from '../styles/ComponentStyles/WelcomeSection.module.scss'
+import Image from 'next/image'
 const WelcomeSection = () => {
     return(
         <>
@@ -15,6 +16,7 @@ const WelcomeSection = () => {
                         </div>
                         <button className={style.brandButton}>Let's Connect</button>
                         <span className="ml-5">Or Contact Us for further Detailsw</span>
+                        
                     </div>
                 </div>
 

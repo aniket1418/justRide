@@ -3,6 +3,7 @@ import AboutSection from '../components/AboutSection'
 import Footer from '../components/Footer'
 import LeadSection from '../components/LeadSection'
 import NavbarComponent from '../components/NavBar'
+import NewSection from '../components/NewsSection'
 import ServiceOffered from '../components/ServiceOffered'
 import ServiceSection from '../components/ServiceSection'
 import WelcomeSection from '../components/WelcomeSection'
@@ -19,10 +20,11 @@ export default function Home() {
       </Head>
       <NavbarComponent/>
       <WelcomeSection/>
-      <AboutSection/>
+      {/* <AboutSection/> */}
       <ServiceSection/>
       <LeadSection/>
       <ServiceOffered/>
+      <NewSection/>
       <Footer/>
     </div>
   )

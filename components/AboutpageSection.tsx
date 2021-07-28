@@ -63,13 +63,13 @@ const AboutPageSection = () => {
                     </div>
 
 
-                    <div className="col-xl-6">
+                    {/* <div className="col-xl-6">
                         <TeamSectionCard titleName="Gaurav Yadav" designation="Market Research Team" about="Responsible for identifying markets & researching GTM strategies" image="/images/team/gaurav.jpeg" subtitle="MNNIIT/ June'21"/>
                     </div>
 
                     <div className="col-xl-6">
                         <TeamSectionCard titleName="Akhil Ravella" designation="Policy and Regulatory Team" about="Responsible for government liaisoning for permissions & grants, & researching regulatory issues" image="/images/team/akhil.jpg" subtitle="TISS(India)/ June'21"/>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>
